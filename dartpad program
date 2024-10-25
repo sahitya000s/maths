@@ -1,0 +1,38 @@
+void main() {
+  for (int i = 0; i <= 10; i++) {
+    if (i % 2 == 0) {
+      print("$i");
+    }
+  }
+}
+
+
+
+write a program to find number is even or odd.
+
+void main() {
+    int i = 17;
+    if (i % 2 == 0) {
+        print("The given number is even\n");
+    } else {
+        print("The given number is odd\n");
+    }
+}
+
+
+
+find the greater number in between three number
+
+void main() {
+    int n1 = 10;
+    int n2 = 21;
+    int n3 = 5;
+
+    if ((n1 > n2) && (n1 > n3)) {
+        print("10 is greatest\n",);
+    } else if ((n2 > n1) && (n2 > n3)) {
+        print("21 is greatest\n", );
+    } else {
+        print("5 is greatest\n", );
+    }
+}
