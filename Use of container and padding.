@@ -1,0 +1,45 @@
+
+
+
+
+import 'package:flutter/material.dart';
+void main() => runApp(MaterialApp(
+  home: Scaffold(
+    appBar: AppBar(
+      backgroundColor: Color(0xff2f3031),
+      title: Text(
+        "Welcome to homepage",
+        style: TextStyle(
+          fontSize: 25,
+          fontWeight: FontWeight.w700,
+          color: Colors.white,
+        ),
+      ),
+    ),
+    body: Column(
+      children: <Widget>[
+        Container(
+          color: Colors.cyan,
+          padding: EdgeInsets.all(30),
+          child: Text("container 1"),
+        ),
+        Container(
+          color: Color(0xff2ea6fa),
+          padding: EdgeInsets.all(30),
+          child: Text("container 2"),
+        ),
+        Container(
+          color: Color(0xff11e18e),
+          padding: EdgeInsets.all(30),
+          child: Text("container 3"),
+        ),
+      ],
+    ),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {},
+      backgroundColor: Colors.greenAccent,
+      child: Text("Click"),
+    ),
+  ),
+)
+);
